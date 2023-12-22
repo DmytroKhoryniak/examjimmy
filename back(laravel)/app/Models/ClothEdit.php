@@ -1,0 +1,22 @@
+<?php
+
+namespace App\Models;
+
+use Illuminate\Database\Eloquent\Factories\HasFactory;
+use Illuminate\Database\Eloquent\Model;
+
+class ClothEdit extends Model
+{
+    use HasFactory;
+    protected $table = 'clothings';
+    protected $fillable=[
+        'name',
+        'source',
+        'price',
+        'category_id',
+    ];
+
+    public function category(){
+        return $this->belongsTo(Category::class,'category_id');
+    }
+}

@@ -1,0 +1,40 @@
+.headerContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333; /* Колір фону хедера */
+    padding: 10px 20px; /* Внутрішні відступи */
+    color: #fff; /* Колір тексту */
+    height: 100px;
+  }
+  .searchContainer {
+    display: flex;
+    align-items: center;
+    border: 1px solid #fff; /* Додавання границі навколо поля пошуку */
+    border-radius: 5px;
+    padding: 5px;
+    margin-left: 500px; /* Додавання відступу між логотипом і полем пошуку */
+  }
+  
+  .searchInput {
+    border: none;
+    background: transparent;
+    color: #fff;
+    width: 300px; /* Збільшення ширини поля пошуку */
+    height: 40px; /* Збільшення висоти поля пошуку */
+    margin-right: 10px; /* Додавання відступу між текстовим полем і кнопкою */
+  }
+  
+  .searchButton {
+    background-color: #008CBA; /* Колір фону кнопки "Пошук" */
+    color: #fff; /* Колір тексту на кнопці */
+    border: none;
+    padding: 10px 20px; /* Збільшення розміру кнопки */
+    border-radius: 5px;
+    cursor: pointer; /* Зміна курсора на палець при наведенні */
+  }
+  
+  .cartContainer {
+    /* Стилі для іконки корзини та відображення кількості товарів */
+    cursor: pointer; /* Зміна курсора на палець при наведенні */
+  }

@@ -1,0 +1,24 @@
+.button {
+    background-color: white;
+    color: blue;
+    border: 1px solid blue;
+    border-radius: 20px; /* Заокруглення кутів */
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s, box-shadow 0.3s;
+    margin: 10px; /* Відступ між кнопками */
+  }
+  
+  .button:hover {
+    background-color: blue;
+    color: white;
+    box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.5);
+  }
+
+  .hh1{
+    text-align: center;
+  }

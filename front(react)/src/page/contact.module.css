@@ -1,0 +1,28 @@
+.contactsContainer {
+    text-align: left; /* Змінено на left для тексту ліворуч */
+    padding: 20px;
+  }
+  
+  .contactTitle {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+  }
+  
+  .contactInfo {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+  }
+  
+  .contactField {
+    margin: 10px;
+    text-align: left; /* Змінено на left для тексту ліворуч */
+  }
+  
+  .fieldLabel {
+    font-weight: bold;
+  }
+  
+  .fieldValue {
+    margin-top: 5px;
+  }

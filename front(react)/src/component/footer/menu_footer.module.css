@@ -1,0 +1,26 @@
+.footerContainer {
+    background-color: #333; /* Колір фону футера */
+    color: #fff; /* Колір тексту */
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .logo {
+    width: 100px; /* Розмір логотипу за вашими потребами */
+  }
+  
+  .socialLinks {
+    display: flex;
+  }
+  
+  .socialLink {
+    color: #fff;
+    text-decoration: none;
+    margin-right: 20px; /* Відступи між посиланнями */
+  }
+  
+  .socialLink:last-child {
+    margin-right: 0; /* Відстань для останнього посилання */
+  }

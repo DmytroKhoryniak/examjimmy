@@ -1,0 +1,54 @@
+/* .headerTop {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.infoInner{
+    display: flex;
+    width: 50%;
+    justify-content: space-between;
+}
+
+.link{
+    color: black;
+}
+
+.activeLink{
+    color: red;
+} */
+.headerTop {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; /* Сірий фон */
+    padding: 10px;
+    height: 30px;/* Зменшуємо висоту хедера */
+  }
+  
+  .infoInner {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    list-style-type: none; /* Прибираємо крапочки */
+    padding: 0; /* Видаляємо відступи */
+    align-items: center; /* Розташовуємо по центру вертикально */
+    text-align: center; /* Розташовуємо по центру горизонтально */
+    padding-top: 10px;
+  }
+  
+  .link {
+    color: black;
+    transition: color 0.3s; /* Плавна анімація зміни кольору тексту */
+    font-size: 14px;
+    margin: 0 10px;
+    text-decoration: none; /* Додаємо відступи по горизонталі між посиланнями */
+  }
+  
+  .link:hover {
+    color: blue; /* Колір тексту при наведенні */
+  }
+  
+  .activeLink {
+    color: blue;
+    text-decoration: none;
+  }

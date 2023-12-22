@@ -1,0 +1,12 @@
+.carouselBrandsContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px; /* Задайте висоту за вашими потребами */
+    font-weight: bold;
+  }
+  
+  .brandText {
+    text-align: center; /* Розташування тексту по центру */
+    font-size: 24px; /* Розмір тексту за вашими потребами */
+  }
